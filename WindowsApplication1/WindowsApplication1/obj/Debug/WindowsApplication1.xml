@@ -1,0 +1,40 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WindowsApplication1
+</name>
+</assembly>
+<members>
+<member name="P:WindowsApplication1.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.chromium">
+	<summary>
+  Looks up a localized string similar to set ChromeDataDir=C:\Users\%USERNAME%\AppData\Local\Google\Chrome\User Data\Default
+set ChromeCache=%ChromeDataDir%\Cache&gt;nul 2&gt;&amp;1  
+del /q /s /f "%ChromeCache%\*.*"&gt;nul 2&gt;&amp;1    
+del /q /f "%ChromeDataDir%\*Cookies*.*"&gt;nul 2&gt;&amp;1  
+.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.firefoxium">
+	<summary>
+  Looks up a localized string similar to set DataDir=C:\Users\%USERNAME%\AppData\Local\Mozilla\Firefox\Profiles
+del /q /s /f "%DataDir%"
+rd /s /q "%DataDir%"
+for /d %%x in (C:\Users\%USERNAME%\AppData\Roaming\Mozilla\Firefox\Profiles\*) do del /q /s /f %%x\*sqlite
+.
+</summary>
+</member><member name="T:WindowsApplication1.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
